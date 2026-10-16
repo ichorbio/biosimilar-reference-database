@@ -1,0 +1,6 @@
+method_id,assay,instrument,protocol_version,notes
+M-COMP-MW,Molecular weight (theoretical),computed (no instrument),Expasy ProtParam-style: sum of average residue masses + one water per chain,Theoretical value calculated from the amino-acid sequence; not a laboratory measurement.
+M-COMP-PI,Isoelectric point (theoretical),computed (no instrument),Bjellqvist pKa set; bisection over net charge vs pH,Theoretical value calculated from the amino-acid sequence; not a laboratory measurement.
+M-VERIF-MW,Molecular weight (verified value),ichorbio QA / literature,value verified by ichorbio for a complex/bispecific format,Verified value for a multi-chain/bispecific construct where a sum-from-sequence calc is unreliable.
+M-VERIF-PI,Isoelectric point (verified value),ichorbio QA / literature,value verified by ichorbio for a complex/bispecific format,Verified value for a multi-chain/bispecific construct.
+M-SEC-HPLC,Purity (SEC-HPLC),SEC-HPLC (supplier lot-release),BioIntron CoA; size-exclusion HPLC purity,Supplier lot-release purity by size-exclusion HPLC; reported against specification (>95%).

@@ -1,0 +1,44 @@
+table,field,type,unit,definition,allowed_values
+antibodies,entry_id,string,,Permanent database ID for one molecule (never reused),
+antibodies,inn,string,,WHO International Nonproprietary Name (lower case),
+antibodies,target,string,,Antigen the antibody binds,
+antibodies,target_uniprot,string,,UniProt accession of the target,
+antibodies,format,string,,Antibody format / architecture,
+antibodies,isotype,string,,Heavy-chain isotype + light chain,
+antibodies,host,string,,Host / species origin,
+antibodies,expression_system,string,,Recombinant expression system,CHO / HEK293 / ...
+antibodies,fc_modification,string,,Fc engineering if any,none / LALA / ...
+antibodies,heavy_chain_aa,string,,Heavy chain amino-acid sequence (single letter),
+antibodies,light_chain_aa,string,,Light chain amino-acid sequence (single letter),
+antibodies,sequence_source,string,,Where the sequence came from,IMGT/mAb-DB
+antibodies,imgt_url,url,,IMGT mAb-DB cross-reference,
+antibodies,thera_sabdab_url,url,,Thera-SAbDab cross-reference,
+antibodies,product_sku,string,,ichorbio catalogue number,
+antibodies,product_url,url,,ichorbio product page,
+antibodies,rrid,string,,Antibody Registry RRID,AB_xxxxxxx
+samples,sample_id,string,,ID for one physical lot tested,
+samples,entry_id,string,,Links to antibodies.entry_id,
+samples,sample_type,enum,,Sample type,biosimilar / comparator
+samples,lot_number,string,,Supplier lot number,
+samples,supplier_of_record,string,,Supplier of record for the lot (ichorbio for our products),
+samples,buffer,string,,Formulation / buffer,
+samples,concentration_mg_ml,number,mg/mL,Protein concentration,
+samples,date_received,date,,Date the lot was received,
+methods,method_id,string,,"ID for one assay protocol (new id per change, never edited)",
+methods,assay,string,,Assay name,DSF / SEC-HPLC / HIC-HPLC / AC-SINS / PSR / computed
+methods,instrument,string,,Instrument or 'computed',
+methods,protocol_version,string,,Protocol / method version,
+methods,notes,string,,Free text,
+measurements,measurement_id,string,,ID for one value,
+measurements,sample_id,string,,Links to samples.sample_id,
+measurements,method_id,string,,Links to methods.method_id,
+measurements,parameter,enum,,What was measured,mw_kda / theoretical_pi / tm1 / tm_onset / tagg / pct_monomer / hic_retention_time / acsins_delta_lambda_max / psr_score
+measurements,value,number,per parameter,The value,
+measurements,unit,string,,Unit of the value,kDa / pH units / degC / % / min / nm / score
+measurements,replicate_n,number,,Number of replicates,
+measurements,sd,number,,Standard deviation,
+measurements,measured_on,date,,Date measured,
+measurements,raw_file,path,,Path to the raw trace (CSV) under raw/,
+measurements,first_version,string,,Release this value first appeared in,
+measurements,last_changed_version,string,,Release this value last changed in,
+measurements,notes,string,,"Free text, e.g. a superseded value",

@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "ichorbio Biosimilar Reference Database",
+  "description": "Open, citable developability and biophysical data for ichorbio's research-grade biosimilars: identity, sequences, molecular weight and isoelectric point, with measured assay data (Tm, SEC, HIC, AC-SINS, PSR) added over time.",
+  "url": "https://ichor.bio/biosimilar-database/",
+  "version": "0.1.3",
+  "identifier": "https://doi.org/10.5281/zenodo.XXXXXXX",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "creator": {
+    "@type": "Organization",
+    "name": "ichorbio",
+    "url": "https://ichor.bio/"
+  },
+  "datePublished": "2026-10-05",
+  "dateModified": "2026-10-05",
+  "keywords": [
+    "biosimilar",
+    "antibody developability",
+    "biophysical data",
+    "molecular weight",
+    "isoelectric point",
+    "Tm",
+    "SEC-HPLC",
+    "HIC",
+    "AC-SINS",
+    "PSR",
+    "reference dataset"
+  ],
+  "measurementTechnique": [
+    "Theoretical calculation from sequence",
+    "Differential scanning fluorimetry (DSF)",
+    "SEC-HPLC",
+    "HIC-HPLC",
+    "AC-SINS",
+    "PSR"
+  ],
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "mw_kda",
+      "description": "Molecular weight",
+      "unitText": "kDa"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "theoretical_pi",
+      "description": "Isoelectric point (theoretical)",
+      "unitText": "pH units"
+    }
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.3/antibodies.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.3/samples.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.3/methods.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.3/measurements.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.3/summary_wide.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.3/ichorbio_bsr.json"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/x-fasta",
+      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.3/sequences.fasta"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/vnd.apache.parquet",
+      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.3/ichorbio_bsr.parquet"
+    }
+  ]
+}
