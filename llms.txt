@@ -1,0 +1,22 @@
+# ichorbio Biosimilar Reference Database
+
+> Open, citable developability and biophysical data for ichorbio's research-grade biosimilars.
+> Identity, sequences, molecular weight and isoelectric point for 480 antibodies, with measured
+> assay data (Tm, SEC, HIC, AC-SINS, PSR) added over time. Licensed CC BY 4.0.
+
+## Start here
+- Home: https://ichor.bio/biosimilar-database/
+- Data dictionary: https://ichor.bio/biosimilar-database/data-dictionary/
+- Methods: https://ichor.bio/biosimilar-database/methods/
+- How to cite: https://ichor.bio/biosimilar-database/#cite
+
+## Downloads (machine-readable)
+- CSV tables: https://ichor.bio/biosimilar-database/download/latest/antibodies.csv , samples.csv , methods.csv , measurements.csv
+- Wide summary: https://ichor.bio/biosimilar-database/download/latest/summary_wide.csv
+- JSON (nested by antibody): https://ichor.bio/biosimilar-database/download/latest/ichorbio_bsr.json
+- Parquet: https://ichor.bio/biosimilar-database/download/latest/ichorbio_bsr.parquet
+- Sequences (FASTA): https://ichor.bio/biosimilar-database/download/latest/sequences.fasta
+
+## Notes
+- One row per measurement; new assays and antibodies are added as rows, never as new columns.
+- Every value states its method; theoretical values (MW, pI) are marked as computed from sequence.

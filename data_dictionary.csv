@@ -1,0 +1,66 @@
+table,field,type,unit,definition,allowed_values
+antibodies,entry_id,string,,Permanent database ID for one molecule (never reused),
+antibodies,inn,string,,WHO International Nonproprietary Name,
+antibodies,target,string,,Antigen the antibody binds,
+antibodies,target_uniprot,string,,UniProt accession of the target,
+antibodies,format,string,,Antibody format / architecture (flags multi-chain formats),
+antibodies,isotype,string,,Heavy-chain isotype + light chain,
+antibodies,expression_system,string,,Recombinant expression system,CHO / HEK293 / ...
+antibodies,fc_modification,string,,Fc engineering if any,none / LALA / ...
+antibodies,heavy_chain_aa,string,,Heavy chain amino-acid sequence (single letter),
+antibodies,light_chain_aa,string,,Light chain amino-acid sequence (single letter),
+antibodies,thera_sabdab_url,url,,"Thera-SAbDab cross-reference (search link by INN); blank where the drug has no Thera-SAbDab entry",
+antibodies,product_sku,string,,ichorbio catalogue number,
+antibodies,product_url,url,,ichorbio product page,
+antibodies,rrid,string,,Antibody Registry RRID,AB_xxxxxxx
+samples,sample_id,string,,ID for one physical lot tested,
+samples,entry_id,string,,Links to antibodies.entry_id,
+samples,sample_type,enum,,Sample type,biosimilar / comparator
+samples,lot_number,string,,Lot number on the ichorbio Certificate of Analysis,
+samples,buffer,string,,Formulation / buffer,
+samples,concentration_mg_ml,number,mg/mL,Protein concentration,
+samples,date_received,date,,Date the lot was received,
+methods,method_id,string,,"ID for one assay protocol (new id per change, never edited)",
+methods,assay,string,,Assay name,DSF / SEC-HPLC / HIC-HPLC / AC-SINS / PSR / computed
+methods,instrument,string,,Instrument or 'computed',
+methods,protocol_version,string,,Protocol / method version,
+methods,notes,string,,Free text,
+measurements,measurement_id,string,,ID for one value,
+measurements,sample_id,string,,Links to samples.sample_id,
+measurements,method_id,string,,Links to methods.method_id,
+measurements,parameter,enum,,What was measured,mw_kda / theoretical_pi / tm1 / tm_onset / tagg / pct_monomer / hic_retention_time / acsins_delta_lambda_max / psr_score
+measurements,value,number,per parameter,The value,
+measurements,unit,string,,Unit of the value,kDa / pH units / degC / % / min / nm / score
+measurements,replicate_n,number,,Number of replicates,
+measurements,sd,number,,Standard deviation,
+measurements,measured_on,date,,Date measured,
+measurements,raw_file,path,,Path to the raw trace (CSV) under raw/,
+measurements,first_version,string,,Release this value first appeared in,
+measurements,last_changed_version,string,,Release this value last changed in,
+measurements,notes,string,,"Free text, e.g. a superseded value",
+developability_published_jain2017,entry_id,string,,Links to antibodies.entry_id (blank if the drug is not in the sequence table),
+developability_published_jain2017,inn,string,,WHO International Nonproprietary Name,
+developability_published_jain2017,product_sku,string,,ichorbio catalogue number,
+developability_published_jain2017,developability_source,string,,Fixed label marking the data as published literature,Published: Jain et al. 2017
+developability_published_jain2017,doi,string,,DOI of the source paper,10.1073/pnas.1616408114
+developability_published_jain2017,clinical_status_2017,string,,Clinical status as reported in 2017,Approved / Phase 3 / Phase 2
+developability_published_jain2017,fab_tm_dsf_c,number,degC,Fab melting temperature by DSF (higher is more stable),
+developability_published_jain2017,hic_retention_min,number,min,HIC retention time (lower is better; 25 = did not elute),
+developability_published_jain2017,smac_retention_min,number,min,SMAC retention time (lower is better; 25 = did not elute),
+developability_published_jain2017,ac_sins_dlmax_nm,number,nm,AC-SINS delta-lambda-max self-association (lower is better; ~29.6 = top of range),
+developability_published_jain2017,psr_smp_score,number,,Poly-specificity reagent SMP score 0-1 (lower is better),
+developability_published_jain2017,sgac_sins_as100_mM,number,mM,"SGAC-SINS AS100, ammonium sulphate concentration (higher is better)",
+developability_published_jain2017,accel_stability_slope,number,,Slope for accelerated stability,
+developability_published_jain2017,cic_retention_min,number,min,CIC retention time,
+developability_published_jain2017,csi_bli_delta_nm,number,nm,CSI-BLI delta response,
+developability_published_jain2017,elisa,number,,ELISA signal (lower is better),
+developability_published_jain2017,bvp_elisa,number,,Baculovirus particle ELISA (lower is better),
+developability_published_jain2017,hek_titer_mgL,number,mg/L,HEK293 expression titre reported by the authors,
+developability_published_jain2017,special_value_notes,string,,Notes on placeholder / top-of-range values,
+jain2017_sequence_check,entry_id,string,,Links to antibodies.entry_id (blank if not in the sequence table),
+jain2017_sequence_check,inn,string,,WHO International Nonproprietary Name,
+jain2017_sequence_check,product_sku,string,,ichorbio catalogue number,
+jain2017_sequence_check,sequence_check,enum,,Whether Jain's VH/VL matches the ichorbio listing,Match / VH differs / VL differs / No sequence on ichorbio listing
+jain2017_sequence_check,notes,string,,Explanation where the sequence differs,
+jain2017_sequence_check,jain_VH,string,,Jain VH sequence (variable domain only),
+jain2017_sequence_check,jain_VL,string,,Jain VL sequence (variable domain only),
