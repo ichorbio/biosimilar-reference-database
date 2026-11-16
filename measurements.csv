@@ -43,10 +43,10 @@ M-0021-01,S-0021,M-COMP-MW,mw_kda,146.4,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-s
 M-0021-02,S-0021,M-COMP-PI,theoretical_pi,8.06,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0022-01,S-0022,M-COMP-MW,mw_kda,146.3,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0022-02,S-0022,M-COMP-PI,theoretical_pi,7.4,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
-M-0023-01,S-0023,M-COMP-MW,mw_kda,167.6,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
-M-0023-02,S-0023,M-COMP-PI,theoretical_pi,8.49,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
-M-0024-01,S-0024,M-COMP-MW,mw_kda,167.2,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
-M-0024-02,S-0024,M-COMP-PI,theoretical_pi,8.28,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
+M-0023-01,S-0023,M-COMP-MW,mw_kda,145.5,kDa,,,,,v0.1.0,v0.1.6,Expasy ProtParam-style (average masses; Bjellqvist pKa)
+M-0023-02,S-0023,M-COMP-PI,theoretical_pi,8.2,pH units,,,,,v0.1.0,v0.1.6,Expasy ProtParam-style (average masses; Bjellqvist pKa)
+M-0024-01,S-0024,M-COMP-MW,mw_kda,48.4,kDa,,,,,v0.1.0,v0.1.6,Expasy ProtParam-style (average masses; Bjellqvist pKa); 1 heavy-chain fragment + 1 light chain
+M-0024-02,S-0024,M-COMP-PI,theoretical_pi,7.76,pH units,,,,,v0.1.0,v0.1.6,Expasy ProtParam-style (average masses; Bjellqvist pKa); 1 heavy-chain fragment + 1 light chain
 M-0025-01,S-0025,M-COMP-MW,mw_kda,143.8,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0025-02,S-0025,M-COMP-PI,theoretical_pi,8.33,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0026-01,S-0026,M-COMP-MW,mw_kda,148.0,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
@@ -75,8 +75,8 @@ M-0037-01,S-0037,M-COMP-MW,mw_kda,146.1,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-s
 M-0037-02,S-0037,M-COMP-PI,theoretical_pi,8.41,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0038-01,S-0038,M-COMP-MW,mw_kda,144.9,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0038-02,S-0038,M-COMP-PI,theoretical_pi,7.89,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
-M-0039-01,S-0039,M-COMP-MW,mw_kda,145.6,kDa,,,,,v0.1.0,v0.1.0,"sum of the 4 construct chains (theoretical, from sequence); verify for multivalent/2:1 formats"
-M-0039-02,S-0039,M-COMP-PI,theoretical_pi,8.42,pH units,,,,,v0.1.0,v0.1.0,"sum of the 4 construct chains (theoretical, from sequence); verify for multivalent/2:1 formats"
+M-0039-01,S-0039,M-COMP-MW,mw_kda,145.6,kDa,,,,,v0.1.0,v0.1.6,"sum of the 4 construct chains (theoretical, from sequence); verify for multivalent/2:1 formats"
+M-0039-02,S-0039,M-COMP-PI,theoretical_pi,8.42,pH units,,,,,v0.1.0,v0.1.6,"sum of the 4 construct chains (theoretical, from sequence); verify for multivalent/2:1 formats"
 M-0040-01,S-0040,M-COMP-MW,mw_kda,142.8,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0040-02,S-0040,M-COMP-PI,theoretical_pi,7.1,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0041-01,S-0041,M-COMP-MW,mw_kda,145.9,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
@@ -423,8 +423,8 @@ M-0211-01,S-0211,M-COMP-MW,mw_kda,147.3,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-s
 M-0211-02,S-0211,M-COMP-PI,theoretical_pi,8.21,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0212-01,S-0212,M-COMP-MW,mw_kda,145.6,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0212-02,S-0212,M-COMP-PI,theoretical_pi,8.42,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
-M-0213-01,S-0213,M-COMP-MW,mw_kda,47.8,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
-M-0213-02,S-0213,M-COMP-PI,theoretical_pi,8.56,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
+M-0213-01,S-0213,M-COMP-MW,mw_kda,47.8,kDa,,,,,v0.1.0,v0.1.6,Expasy ProtParam-style (average masses; Bjellqvist pKa); 1 heavy-chain fragment + 1 light chain
+M-0213-02,S-0213,M-COMP-PI,theoretical_pi,8.53,pH units,,,,,v0.1.0,v0.1.6,Expasy ProtParam-style (average masses; Bjellqvist pKa); 1 heavy-chain fragment + 1 light chain
 M-0214-01,S-0214,M-COMP-MW,mw_kda,145.0,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0214-02,S-0214,M-COMP-PI,theoretical_pi,8.42,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0215-01,S-0215,M-COMP-MW,mw_kda,144.2,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
@@ -445,8 +445,8 @@ M-0222-01,S-0222,M-COMP-MW,mw_kda,144.5,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-s
 M-0222-02,S-0222,M-COMP-PI,theoretical_pi,7.19,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0223-01,S-0223,M-COMP-MW,mw_kda,144.4,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0223-02,S-0223,M-COMP-PI,theoretical_pi,8.33,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
-M-0224-01,S-0224,M-COMP-MW,mw_kda,47.3,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
-M-0224-02,S-0224,M-COMP-PI,theoretical_pi,8.14,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
+M-0224-01,S-0224,M-COMP-MW,mw_kda,47.3,kDa,,,,,v0.1.0,v0.1.6,Expasy ProtParam-style (average masses; Bjellqvist pKa); 1 heavy-chain fragment + 1 light chain
+M-0224-02,S-0224,M-COMP-PI,theoretical_pi,7.4,pH units,,,,,v0.1.0,v0.1.6,Expasy ProtParam-style (average masses; Bjellqvist pKa); 1 heavy-chain fragment + 1 light chain
 M-0225-01,S-0225,M-COMP-MW,mw_kda,145.9,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0225-02,S-0225,M-COMP-PI,theoretical_pi,8.22,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0226-01,S-0226,M-COMP-MW,mw_kda,146.1,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
@@ -631,8 +631,8 @@ M-0315-01,S-0315,M-COMP-MW,mw_kda,145.8,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-s
 M-0315-02,S-0315,M-COMP-PI,theoretical_pi,8.34,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0316-01,S-0316,M-COMP-MW,mw_kda,145.3,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0316-02,S-0316,M-COMP-PI,theoretical_pi,7.87,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
-M-0317-01,S-0317,M-COMP-MW,mw_kda,48.3,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
-M-0317-02,S-0317,M-COMP-PI,theoretical_pi,8.57,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
+M-0317-01,S-0317,M-COMP-MW,mw_kda,48.3,kDa,,,,,v0.1.0,v0.1.6,Expasy ProtParam-style (average masses; Bjellqvist pKa); 1 heavy-chain fragment + 1 light chain
+M-0317-02,S-0317,M-COMP-PI,theoretical_pi,8.55,pH units,,,,,v0.1.0,v0.1.6,Expasy ProtParam-style (average masses; Bjellqvist pKa); 1 heavy-chain fragment + 1 light chain
 M-0318-01,S-0318,M-COMP-MW,mw_kda,144.7,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0318-02,S-0318,M-COMP-PI,theoretical_pi,7.4,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0319-01,S-0319,M-COMP-MW,mw_kda,146.6,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
@@ -671,8 +671,8 @@ M-0335-01,S-0335,M-COMP-MW,mw_kda,147.0,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-s
 M-0335-02,S-0335,M-COMP-PI,theoretical_pi,7.9,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0336-01,S-0336,M-COMP-MW,mw_kda,147.0,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0336-02,S-0336,M-COMP-PI,theoretical_pi,7.9,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
-M-0337-01,S-0337,M-COMP-MW,mw_kda,47.0,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
-M-0337-02,S-0337,M-COMP-PI,theoretical_pi,7.64,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
+M-0337-01,S-0337,M-COMP-MW,mw_kda,47.0,kDa,,,,,v0.1.0,v0.1.6,Expasy ProtParam-style (average masses; Bjellqvist pKa); 1 heavy-chain fragment + 1 light chain
+M-0337-02,S-0337,M-COMP-PI,theoretical_pi,6.26,pH units,,,,,v0.1.0,v0.1.6,Expasy ProtParam-style (average masses; Bjellqvist pKa); 1 heavy-chain fragment + 1 light chain
 M-0338-01,S-0338,M-COMP-MW,mw_kda,142.9,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0338-02,S-0338,M-COMP-PI,theoretical_pi,7.42,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0339-01,S-0339,M-COMP-MW,mw_kda,145.0,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
@@ -827,8 +827,8 @@ M-0413-01,S-0413,M-COMP-MW,mw_kda,145.6,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-s
 M-0413-02,S-0413,M-COMP-PI,theoretical_pi,7.9,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0414-01,S-0414,M-COMP-MW,mw_kda,144.6,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0414-02,S-0414,M-COMP-PI,theoretical_pi,8.57,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
-M-0415-01,S-0415,M-COMP-MW,mw_kda,49.0,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
-M-0415-02,S-0415,M-COMP-PI,theoretical_pi,8.14,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
+M-0415-01,S-0415,M-COMP-MW,mw_kda,49.0,kDa,,,,,v0.1.0,v0.1.6,Expasy ProtParam-style (average masses; Bjellqvist pKa); 1 heavy-chain fragment + 1 light chain
+M-0415-02,S-0415,M-COMP-PI,theoretical_pi,7.42,pH units,,,,,v0.1.0,v0.1.6,Expasy ProtParam-style (average masses; Bjellqvist pKa); 1 heavy-chain fragment + 1 light chain
 M-0416-01,S-0416,M-COMP-MW,mw_kda,147.5,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0416-02,S-0416,M-COMP-PI,theoretical_pi,8.59,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0417-01,S-0417,M-COMP-MW,mw_kda,146.2,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
@@ -871,8 +871,8 @@ M-0435-01,S-0435,M-COMP-MW,mw_kda,145.6,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-s
 M-0435-02,S-0435,M-COMP-PI,theoretical_pi,8.07,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0436-01,S-0436,M-COMP-MW,mw_kda,144.7,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0436-02,S-0436,M-COMP-PI,theoretical_pi,8.07,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
-M-0437-01,S-0437,M-COMP-MW,mw_kda,47.6,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
-M-0437-02,S-0437,M-COMP-PI,theoretical_pi,8.5,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
+M-0437-01,S-0437,M-COMP-MW,mw_kda,47.5,kDa,,,,,v0.1.0,v0.1.6,Expasy ProtParam-style (average masses; Bjellqvist pKa); 1 heavy-chain fragment + 1 light chain
+M-0437-02,S-0437,M-COMP-PI,theoretical_pi,8.24,pH units,,,,,v0.1.0,v0.1.6,Expasy ProtParam-style (average masses; Bjellqvist pKa); 1 heavy-chain fragment + 1 light chain
 M-0438-01,S-0438,M-COMP-MW,mw_kda,145.1,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0438-02,S-0438,M-COMP-PI,theoretical_pi,8.05,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0439-01,S-0439,M-COMP-MW,mw_kda,147.6,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
@@ -955,8 +955,8 @@ M-0477-01,S-0477,M-COMP-MW,mw_kda,145.2,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-s
 M-0477-02,S-0477,M-COMP-PI,theoretical_pi,8.5,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0478-01,S-0478,M-COMP-MW,mw_kda,145.4,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0478-02,S-0478,M-COMP-PI,theoretical_pi,7.67,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
-M-0479-01,S-0479,M-COMP-MW,mw_kda,145.9,kDa,,,,,v0.1.0,v0.1.0,"sum of the 4 construct chains (theoretical, from sequence); verify for multivalent/2:1 formats"
-M-0479-02,S-0479,M-COMP-PI,theoretical_pi,8.42,pH units,,,,,v0.1.0,v0.1.0,"sum of the 4 construct chains (theoretical, from sequence); verify for multivalent/2:1 formats"
+M-0479-01,S-0479,M-COMP-MW,mw_kda,146.6,kDa,,,,,v0.1.0,v0.1.6,"sum of the 4 construct chains (theoretical, from sequence); verify for multivalent/2:1 formats"
+M-0479-02,S-0479,M-COMP-PI,theoretical_pi,8.65,pH units,,,,,v0.1.0,v0.1.6,"sum of the 4 construct chains (theoretical, from sequence); verify for multivalent/2:1 formats"
 M-0480-01,S-0480,M-COMP-MW,mw_kda,146.2,kDa,,,,,v0.1.0,v0.1.0,"sum of the 4 construct chains (theoretical, from sequence); verify for multivalent/2:1 formats"
 M-0480-02,S-0480,M-COMP-PI,theoretical_pi,7.25,pH units,,,,,v0.1.0,v0.1.0,"sum of the 4 construct chains (theoretical, from sequence); verify for multivalent/2:1 formats"
 M-0053-03,S-0053,M-SEC-HPLC,pct_monomer,98.435,%,,,,,v0.1.2,v0.1.3,SEC-HPLC monomer purity 98.435% from ichorbio CoA (280nm main peak); lot P0C0DABAH

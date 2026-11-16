@@ -1,5 +1,18 @@
 # Changelog
 
+## v0.1.6
+- Corrected the ten entries re-checked against IMGT/mAb-DB by ichorbio Technical Support:
+  pertuzumab, ranibizumab, idarucizumab, abrezekimab, glenzocimab, lampalizumab, rivabazumab,
+  tadocizumab, girentuximab and zenocutuzumab. Their chain sequences are updated where needed.
+- Ranibizumab is now listed as a Fab fragment and rivabazumab as a Fab' fragment. For all Fab and
+  Fab' entries, molecular weight and theoretical pI are computed from one heavy-chain fragment
+  and one light chain.
+- Targets: idarucizumab now lists dabigatran (was the brand name Pradaxa); zenocutuzumab now
+  lists ERBB2 + ERBB3 (was blank).
+- Molecular weight and theoretical pI recomputed for these ten entries only. All other entries
+  are unchanged.
+- `jain2017_sequence_check.csv`: unchanged. All ten entries keep their earlier result.
+
 ## v0.1.5
 - Wording updates in `methods.csv`, the SEC-HPLC measurement notes, `ichorbio_bsr.json`,
   `data_dictionary.csv` and this changelog. No data values changed.

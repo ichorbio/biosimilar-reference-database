@@ -21,8 +21,8 @@ ICB-BSR-0019,Evolocumab,ICH4023,PCSK9,"standard IgG (2H+2L, theoretical from seq
 ICB-BSR-0020,Ipilimumab,ICH4025,CTLA-4,"standard IgG (2H+2L, theoretical from sequence)",IgG1 kappa,145.4,8.43
 ICB-BSR-0021,Obinutuzumab,ICH4026,CD20,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,146.4,8.06
 ICB-BSR-0022,Pembrolizumab,ICH4029,PD-1,"standard IgG (2H+2L, theoretical from sequence)",IgG4 kappa,146.3,7.4
-ICB-BSR-0023,Pertuzumab,ICH4030,HER2,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,167.6,8.49
-ICB-BSR-0024,Ranibizumab,ICH4031,VEGF,"standard IgG (2H+2L, theoretical from sequence)",IgG1 kappa,167.2,8.28
+ICB-BSR-0023,Pertuzumab,ICH4030,HER2,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,145.5,8.2
+ICB-BSR-0024,Ranibizumab,ICH4031,VEGF,Fab fragment (1 H-fragment + 1 L),IgG1 kappa,48.4,7.76
 ICB-BSR-0025,Ramucirumab,ICH4032,VEGFR2,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,143.8,8.33
 ICB-BSR-0026,Secukinumab,ICH4033,IL17A,"standard IgG (2H+2L, theoretical from sequence)",IgG1 kappa,148.0,7.88
 ICB-BSR-0027,Ustekinumab,ICH4034,IL-12 and IL-23,"standard IgG (2H+2L, theoretical from sequence)",IgG1 kappa,145.7,8.42
@@ -211,7 +211,7 @@ ICB-BSR-0209,Tildrakizumab,ICH5303,IL-23A,"standard IgG (2H+2L, theoretical from
 ICB-BSR-0210,Bezlotoxumab,ICH5304,Toxin B,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,145.6,8.51
 ICB-BSR-0211,Olaratumab,ICH5305,CD140a,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,147.3,8.21
 ICB-BSR-0212,Obiltoxaximab,ICH5306,Anthrax PA,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,145.6,8.42
-ICB-BSR-0213,Idarucizumab,ICH5307,Pradaxa,Fab fragment (1 H-fragment + 1 L),Fab - G1 - kappa,47.8,8.56
+ICB-BSR-0213,Idarucizumab,ICH5307,Dabigatran,Fab fragment (1 H-fragment + 1 L),Fab - G1 - kappa,47.8,8.53
 ICB-BSR-0214,Dinutuximab,ICH5308,Ganglioside GD2,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,145.0,8.42
 ICB-BSR-0215,Dostarlimab,ICH5311,PD-1,"standard IgG (2H+2L, theoretical from sequence)",IgG4 - kappa,144.2,6.84
 ICB-BSR-0216,Benralizumab,ICH5313,IL-5RA,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,146.1,8.41
@@ -222,7 +222,7 @@ ICB-BSR-0220,Epcoritamab,ICH5319,CD3E + CD20,bispecific / multi-chain (4 chains)
 ICB-BSR-0221,Faricimab,ICH5320,ANGPT2 + VEGFA,"Dual angiogenesis inhibitor (NOT a T-cell engager) | 1:1 bispecific IgG — 1 Fab per target, both monovalent | 2 Fabs (1 normal + 1 CrossMab) + heterodimeric Fc (4 chains)",Humanized IgG1,144.9,7.8
 ICB-BSR-0222,Abagovomab,ICH5321,CA 125,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,144.5,7.19
 ICB-BSR-0223,Abelacimab,ICH5322,F11,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - lambda2,144.4,8.33
-ICB-BSR-0224,Abrezekimab,ICH5324,IL13,Fab fragment (1 H-fragment + 1 L),Fab - G1 - kappa,47.3,8.14
+ICB-BSR-0224,Abrezekimab,ICH5324,IL13,Fab fragment (1 H-fragment + 1 L),Fab - G1 - kappa,47.3,7.4
 ICB-BSR-0225,Actoxumab,ICH5326,toxin A [Clostridioides difficile],"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,145.9,8.22
 ICB-BSR-0226,Afasevikumab,ICH5330,IL17A,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,146.1,8.22
 ICB-BSR-0227,Alsevalimab,ICH5339,VTCN1,"standard IgG (2H+2L, theoretical from sequence)",IgG1(E356D/M358L)-Kappa,144.8,8.42
@@ -315,7 +315,7 @@ ICB-BSR-0313,Giloralimab,ICH5571,CD40,"standard IgG (2H+2L, theoretical from seq
 ICB-BSR-0314,Gilvetmab,ICH5572,PDCD1,"standard IgG (2H+2L, theoretical from sequence)",IgG2 - kappa,148.0,6.58
 ICB-BSR-0315,Gimsilumab,ICH5574,CSF2,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,145.8,8.34
 ICB-BSR-0316,Glembatumumab Vedotin,ICH5575V,GPNMB,"standard IgG (2H+2L, theoretical from sequence)",IgG2-Kappa,145.3,7.87
-ICB-BSR-0317,Glenzocimab,ICH5576,GP6,Fab fragment (1 H-fragment + 1 L),Fab - G1 - kappa,48.3,8.57
+ICB-BSR-0317,Glenzocimab,ICH5576,GP6,Fab fragment (1 H-fragment + 1 L),Fab - G1 - kappa,48.3,8.55
 ICB-BSR-0318,Gosuranemab,ICH5582,MAPT,"standard IgG (2H+2L, theoretical from sequence)",IgG4 - kappa,144.7,7.4
 ICB-BSR-0319,Ianalumab,ICH5587,TNFRSF13C,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,146.6,8.51
 ICB-BSR-0320,Icrucumab,ICH5589,FLT1,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,146.8,8.07
@@ -335,7 +335,7 @@ ICB-BSR-0333,Lacnotuzumab,ICH5618,CSF1,"standard IgG (2H+2L, theoretical from se
 ICB-BSR-0334,Lacutamab,ICH5619,KIR3DL2,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,144.8,7.43
 ICB-BSR-0335,Ladiratuzumab,ICH5620,SLC39A6,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,147.0,7.9
 ICB-BSR-0336,Ladiratuzumab Vedotin,ICH5620V,LIV-1 / SLC39A6,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,147.0,7.9
-ICB-BSR-0337,Lampalizumab,ICH5622,CFD,Fab fragment (1 H-fragment + 1 L),Fab - G1 - kappa,47.0,7.64
+ICB-BSR-0337,Lampalizumab,ICH5622,CFD,Fab fragment (1 H-fragment + 1 L),Fab - G1 - kappa,47.0,6.26
 ICB-BSR-0338,Landogrozumab,ICH5624,MSTN,"standard IgG (2H+2L, theoretical from sequence)",IgG4 - kappa,142.9,7.42
 ICB-BSR-0339,Laprituximab,ICH5626,EGFR,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,145.0,7.87
 ICB-BSR-0340,Laprituximab Emtansine,ICH5626E,ERBB1 / EGFR / HER1,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,145.0,7.87
@@ -413,7 +413,7 @@ ICB-BSR-0411,Relfovetmab,ICH5814,Felcat NGF,"standard IgG (2H+2L, theoretical fr
 ICB-BSR-0412,Revdofilimab,ICH5818,TNFRSF4,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,145.6,6.87
 ICB-BSR-0413,Rinucumab,ICH5825,PDGFRB,"standard IgG (2H+2L, theoretical from sequence)",IgG4 - kappa,145.6,7.9
 ICB-BSR-0414,Ripertamab,ICH5826,MS4A1,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,144.6,8.57
-ICB-BSR-0415,Rivabazumab,ICH5827,PcrV protein type III secretion system,Fab fragment (1 H-fragment + 1 L),Fab' - G1 - kappa,49.0,8.14
+ICB-BSR-0415,Rivabazumab,ICH5827,PcrV protein type III secretion system,Fab' fragment (1 H-fragment incl. hinge + 1 L),Fab' - G1 - kappa,49.0,7.42
 ICB-BSR-0416,Roledumab,ICH5830,RHD,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,147.5,8.59
 ICB-BSR-0417,Rontalizumab,ICH5835,IFNA1,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,146.2,8.07
 ICB-BSR-0418,Rosmantuzumab,ICH5836,RSPO3,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,145.9,7.4
@@ -435,7 +435,7 @@ ICB-BSR-0433,Suptavumab,ICH5887,RSV,"standard IgG (2H+2L, theoretical from seque
 ICB-BSR-0434,Suvizumab,ICH5890,HIV-1,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,146.4,7.39
 ICB-BSR-0435,Suvratoxumab,ICH5891,alpha toxin,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,145.6,8.07
 ICB-BSR-0436,Tabituximab,ICH5892,FZD10,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,144.7,8.07
-ICB-BSR-0437,Tadocizumab,ICH5893,ITGA2B_ITGB3,Fab fragment (1 H-fragment + 1 L),Fab - G1 - kappa,47.6,8.5
+ICB-BSR-0437,Tadocizumab,ICH5893,ITGA2B_ITGB3,Fab fragment (1 H-fragment + 1 L),Fab - G1 - kappa,47.5,8.24
 ICB-BSR-0438,Tafolecimab,ICH5894,PCSK9,"standard IgG (2H+2L, theoretical from sequence)",IgG2 - kappa,145.1,8.05
 ICB-BSR-0439,Talacotuzumab,ICH5896,IL3RA,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,147.6,7.67
 ICB-BSR-0440,Tamrintamab,ICH5898,DPEP3,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,146.5,7.43
@@ -477,5 +477,5 @@ ICB-BSR-0475,Zampilimab,ICH6001,TGM2,"standard IgG (2H+2L, theoretical from sequ
 ICB-BSR-0476,Zanidatamab,ICH6002,ERBB2,bispecific / multi-chain (3 chains),half-IG G1 - kappa / (scFv - kappa - heavy) -h-CH2-CH3,124.8,7.92
 ICB-BSR-0477,Zelminemab,ICH6005,ADCYAP1R1,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,145.2,8.5
 ICB-BSR-0478,Ziltivekimab,ICH6008,IL6,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,145.4,7.67
-ICB-BSR-0479,Zenocutuzumab,ICH6013,,bispecific / multi-chain (4 chains),IgG1 - kappa,145.9,8.42
+ICB-BSR-0479,Zenocutuzumab,ICH6013,ERBB2 + ERBB3,bispecific / multi-chain (4 chains),IgG1 - kappa,146.6,8.65
 ICB-BSR-0480,Navicixizumab,ICH6020,VEGFA + DLL4,bispecific / multi-chain (4 chains),IgG2 - kappa,146.2,7.25

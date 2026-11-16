@@ -28,7 +28,7 @@ configs:
   data_files: data_dictionary.csv
 ---
 
-# ichorbio Biosimilar Reference Database — v0.1.5
+# ichorbio Biosimilar Reference Database — v0.1.6
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23350140.svg)](https://doi.org/10.5281/zenodo.23350140)
 
@@ -40,7 +40,7 @@ plus a separate published-reference developability table.
 > viewer shows one table at a time from the dropdown (Antibodies, Samples, Measurements, the
 > published developability set, and so on) instead of trying to merge files with different columns.
 
-## What is in v0.1.5
+## What is in v0.1.6
 - **480 antibodies** — identity, target + UniProt, isotype/format, heavy + light chain
   sequences (from IMGT/mAb-DB), ichorbio SKU, product URL, RRID where assigned, and a
   **Thera-SAbDab cross-reference link** for the 458 that have a Thera-SAbDab entry.
@@ -93,7 +93,7 @@ README.md · CHANGELOG.md
 (ichorbio_bsr.parquet is generated at build time with pyarrow — not included in this source drop.)
 
 ## How to cite
-ichorbio (2026). ichorbio Biosimilar Reference Database (version 0.1.5) [Data set].
+ichorbio (2026). ichorbio Biosimilar Reference Database (version 0.1.6) [Data set].
 Zenodo. https://doi.org/10.5281/zenodo.23350140
 
 The concept DOI above always resolves to the latest version; each release also has its own version DOI on Zenodo.
