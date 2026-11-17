@@ -4,7 +4,7 @@
   "name": "ichorbio Biosimilar Reference Database",
   "description": "Open, citable developability and biophysical data for ichorbio's research-grade biosimilars: identity, sequences, molecular weight and isoelectric point, with ichorbio-measured assay data (Tm, SEC, HIC, AC-SINS, PSR) added over time, plus a separate published-reference developability table (Jain et al. 2017) and Thera-SAbDab cross-reference links.",
   "url": "https://ichor.bio/biosimilar-database/",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "identifier": "https://doi.org/10.5281/zenodo.23350140",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "isAccessibleForFree": true,
@@ -14,7 +14,7 @@
     "url": "https://ichor.bio/"
   },
   "datePublished": "2026-10-05",
-  "dateModified": "2026-11-16",
+  "dateModified": "2026-11-17",
   "keywords": [
     "biosimilar",
     "antibody developability",
@@ -54,57 +54,57 @@
     {
       "@type": "DataDownload",
       "encodingFormat": "text/csv",
-      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.6/antibodies.csv"
+      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.7/antibodies.csv"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "text/csv",
-      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.6/samples.csv"
+      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.7/samples.csv"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "text/csv",
-      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.6/methods.csv"
+      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.7/methods.csv"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "text/csv",
-      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.6/measurements.csv"
+      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.7/measurements.csv"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "text/csv",
-      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.6/summary_wide.csv"
+      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.7/summary_wide.csv"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "application/json",
-      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.6/ichorbio_bsr.json"
+      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.7/ichorbio_bsr.json"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "text/x-fasta",
-      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.6/sequences.fasta"
+      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.7/sequences.fasta"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "application/vnd.apache.parquet",
-      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.6/ichorbio_bsr.parquet"
+      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.7/ichorbio_bsr.parquet"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "text/csv",
-      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.6/developability_published_jain2017.csv"
+      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.7/developability_published_jain2017.csv"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "text/csv",
-      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.6/jain2017_sequence_check.csv"
+      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.7/jain2017_sequence_check.csv"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "text/csv",
-      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.6/data_dictionary.csv"
+      "contentUrl": "https://ichor.bio/biosimilar-database/download/v0.1.7/data_dictionary.csv"
     }
   ]
 }

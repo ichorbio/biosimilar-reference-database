@@ -2,8 +2,8 @@ cff-version: 1.2.0
 title: "ichorbio Biosimilar Reference Database"
 message: "If you use this dataset, please cite it using the metadata below and tell us when you publish."
 type: dataset
-version: "0.1.6"
-date-released: "2026-11-16"
+version: "0.1.7"
+date-released: "2026-11-17"
 license: CC-BY-4.0
 url: "https://ichor.bio/biosimilar-database/"
 doi: 10.5281/zenodo.23350140

@@ -1,7 +1,7 @@
 # ichorbio Biosimilar Reference Database
 
 > Open, citable developability and biophysical data for ichorbio's research-grade biosimilars.
-> Identity, sequences, molecular weight and isoelectric point for 480 antibodies, with measured
+> Identity, sequences, molecular weight and isoelectric point for 478 antibodies, with measured
 > assay data (Tm, SEC, HIC, AC-SINS, PSR) added over time. Licensed CC BY 4.0.
 
 ## Start here

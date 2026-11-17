@@ -5,7 +5,6 @@ ICB-BSR-0003,Bevacizumab,ICH4003,VEGF,"standard IgG (2H+2L, theoretical from seq
 ICB-BSR-0004,Cetuximab,ICH4004,EGFR,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,145.6,8.07
 ICB-BSR-0005,Eculizumab,ICH4005,Complement protein C5,"standard IgG (2H+2L, theoretical from sequence)",IgG2/4 kappa,145.3,6.21
 ICB-BSR-0006,Infliximab,ICH4006,TNF alpha,"standard IgG (2H+2L, theoretical from sequence)",IgG1 kappa,145.8,7.18
-ICB-BSR-0007,Nimotuzumab,ICH4008,EGFR,"standard IgG (2H+2L, theoretical from sequence)",IgG1 kappa,147.7,8.07
 ICB-BSR-0008,Nivolumab,ICH4009,PD-1,"standard IgG (2H+2L, theoretical from sequence)",IgG4 kappa,143.7,7.67
 ICB-BSR-0009,Omalizumab,ICH4010,IgE,"standard IgG (2H+2L, theoretical from sequence)",IgG1 kappa,146.6,7.17
 ICB-BSR-0010,Rituximab,ICH4011,CD20,"standard IgG (2H+2L, theoretical from sequence)",IgG1 kappa,144.6,8.57
@@ -37,9 +36,8 @@ ICB-BSR-0035,Gantenerumab,ICH5009,Beta Amyloid,"standard IgG (2H+2L, theoretical
 ICB-BSR-0036,Nesvacumab,ICH5010,Angiopoietin 2,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,144.9,8.07
 ICB-BSR-0037,Belantamab,ICH5011,BCMA,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,146.1,8.41
 ICB-BSR-0038,Sutimlimab,ICH5012,C1s,"standard IgG (2H+2L, theoretical from sequence)",IgG4 - kappa,144.9,7.89
-ICB-BSR-0039,Girentuximab,ICH5013,Carbonic Anhydrase IX,bispecific / multi-chain (4 chains),IgG1 - kappa,145.6,8.42
+ICB-BSR-0039,Girentuximab,ICH5013,Carbonic Anhydrase IX,"standard IgG (2H+2L, theoretical from sequence)",IgG1 - kappa,145.6,8.42
 ICB-BSR-0040,Utomilumab,ICH5014,4-1BB,"standard IgG (2H+2L, theoretical from sequence)",IgG2 - lambda,142.8,7.1
-ICB-BSR-0041,Urelumab,ICH5015,4-1BB,"standard IgG (2H+2L, theoretical from sequence)",IgG4 - kappa,145.9,6.59
 ICB-BSR-0042,Atibuclimab,ICH5016,CD14,"standard IgG (2H+2L, theoretical from sequence)",IgG4 - kappa,145.3,7.39
 ICB-BSR-0043,Monalizumab,ICH5017,NKG2A,"standard IgG (2H+2L, theoretical from sequence)",IgG4 - kappa,146.7,7.12
 ICB-BSR-0044,Glofitamab,ICH5019,CD3 + CD20,T-cell engager (TCB) | 2:1 TCB — bivalent tumor + monovalent CD3 | 2 Fabs + 1 CrossFab + heterodimeric Fc (5 chains),Humanized IgG1,194.3,8.2

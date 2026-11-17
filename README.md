@@ -28,7 +28,7 @@ configs:
   data_files: data_dictionary.csv
 ---
 
-# ichorbio Biosimilar Reference Database — v0.1.6
+# ichorbio Biosimilar Reference Database — v0.1.7
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23350140.svg)](https://doi.org/10.5281/zenodo.23350140)
 
@@ -40,14 +40,14 @@ plus a separate published-reference developability table.
 > viewer shows one table at a time from the dropdown (Antibodies, Samples, Measurements, the
 > published developability set, and so on) instead of trying to merge files with different columns.
 
-## What is in v0.1.6
-- **480 antibodies** — identity, target + UniProt, isotype/format, heavy + light chain
+## What is in v0.1.7
+- **478 antibodies** — identity, target + UniProt, isotype/format, heavy + light chain
   sequences (from IMGT/mAb-DB), ichorbio SKU, product URL, RRID where assigned, and a
-  **Thera-SAbDab cross-reference link** for the 458 that have a Thera-SAbDab entry.
-- **960 theoretical measurements** — molecular weight and theoretical pI, **computed from the
+  **Thera-SAbDab cross-reference link** for the 456 that have a Thera-SAbDab entry.
+- **956 theoretical measurements** — molecular weight and theoretical pI, **computed from the
   sequence** (clearly marked as theoretical in `methods.csv`, not laboratory values).
-- **SEC-HPLC purity for 82 biosimilars**, taken from ichorbio Certificates of Analysis
-  (coa.ichor.bio). 68 are the **exact monomer % read from the CoA chromatogram peak table**
+- **SEC-HPLC purity for 81 biosimilars**, taken from ichorbio Certificates of Analysis
+  (coa.ichor.bio). 67 are the **exact monomer % read from the CoA chromatogram peak table**
   (280 nm main peak); the remaining 14 are reported against a >95% specification where the CoA
   gives no chromatogram.
 - **Published reference developability (Jain et al. 2017)** — see below.
@@ -57,7 +57,7 @@ plus a separate published-reference developability table.
 Jain T, et al. *Biophysical properties of the clinical-stage antibody landscape.*
 PNAS 2017;114(5):944–949. doi:[10.1073/pnas.1616408114](https://doi.org/10.1073/pnas.1616408114).
 
-- 137 clinical-stage antibodies; **135 match an ichorbio catalogue number**, 112 of which are
+- 137 clinical-stage antibodies; **133 match an ichorbio catalogue number**, 110 of which are
   also in the sequence table above (the other 23 are catalogue items we do not yet list a
   sequence for).
 - Assays include **Fab Tm (DSF), HIC, AC-SINS, PSR** (the priority four) plus SMAC, SGAC-SINS,
@@ -75,8 +75,8 @@ PNAS 2017;114(5):944–949. doi:[10.1073/pnas.1616408114](https://doi.org/10.107
   assay range**; both are called out in `special_value_notes`.
 
 `jain2017_sequence_check.csv` records, per antibody, whether Jain's VH/VL matches our listing
-(108 match; 23 have no sequence on our listing yet; 4 differ — infliximab, nimotuzumab and
-omalizumab in VH, urelumab in VL, with notes on each).
+(109 match; 23 have no sequence on our listing yet; 1 differs — omalizumab, where Jain et al.
+document an unintended CDR-H2 mutation in their own construct).
 
 ## Added as ichorbio's own assays arrive (no rebuild needed)
 Further **ichorbio-measured** developability — Tm (DSF), HIC, AC-SINS, PSR, and more SEC-HPLC lots —
@@ -93,7 +93,7 @@ README.md · CHANGELOG.md
 (ichorbio_bsr.parquet is generated at build time with pyarrow — not included in this source drop.)
 
 ## How to cite
-ichorbio (2026). ichorbio Biosimilar Reference Database (version 0.1.6) [Data set].
+ichorbio (2026). ichorbio Biosimilar Reference Database (version 0.1.7) [Data set].
 Zenodo. https://doi.org/10.5281/zenodo.23350140
 
 The concept DOI above always resolves to the latest version; each release also has its own version DOI on Zenodo.

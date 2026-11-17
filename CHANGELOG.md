@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.1.7
+- Two entries withdrawn pending sequence verification.
+- Girentuximab is now listed as a standard IgG.
+- `jain2017_sequence_check.csv`: the notes for infliximab and omalizumab are rewritten as findings.
+- Entry counts updated (478 antibodies).
+
 ## v0.1.6
 - Corrected the ten entries re-checked against IMGT/mAb-DB by ichorbio Technical Support:
   pertuzumab, ranibizumab, idarucizumab, abrezekimab, glenzocimab, lampalizumab, rivabazumab,

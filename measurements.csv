@@ -11,8 +11,6 @@ M-0005-01,S-0005,M-COMP-MW,mw_kda,145.3,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-s
 M-0005-02,S-0005,M-COMP-PI,theoretical_pi,6.21,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0006-01,S-0006,M-COMP-MW,mw_kda,145.8,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0006-02,S-0006,M-COMP-PI,theoretical_pi,7.18,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
-M-0007-01,S-0007,M-COMP-MW,mw_kda,147.7,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
-M-0007-02,S-0007,M-COMP-PI,theoretical_pi,8.07,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0008-01,S-0008,M-COMP-MW,mw_kda,143.7,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0008-02,S-0008,M-COMP-PI,theoretical_pi,7.67,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0009-01,S-0009,M-COMP-MW,mw_kda,146.6,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
@@ -79,8 +77,6 @@ M-0039-01,S-0039,M-COMP-MW,mw_kda,145.6,kDa,,,,,v0.1.0,v0.1.6,"sum of the 4 cons
 M-0039-02,S-0039,M-COMP-PI,theoretical_pi,8.42,pH units,,,,,v0.1.0,v0.1.6,"sum of the 4 construct chains (theoretical, from sequence); verify for multivalent/2:1 formats"
 M-0040-01,S-0040,M-COMP-MW,mw_kda,142.8,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0040-02,S-0040,M-COMP-PI,theoretical_pi,7.1,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
-M-0041-01,S-0041,M-COMP-MW,mw_kda,145.9,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
-M-0041-02,S-0041,M-COMP-PI,theoretical_pi,6.59,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0042-01,S-0042,M-COMP-MW,mw_kda,145.3,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0042-02,S-0042,M-COMP-PI,theoretical_pi,7.39,pH units,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
 M-0043-01,S-0043,M-COMP-MW,mw_kda,146.7,kDa,,,,,v0.1.0,v0.1.0,Expasy ProtParam-style (average masses; Bjellqvist pKa)
@@ -990,7 +986,6 @@ M-0159-03,S-0159,M-SEC-HPLC,pct_monomer,97.506,%,,,,,v0.1.3,v0.1.3,SEC-HPLC mono
 M-0194-03,S-0194,M-SEC-HPLC,pct_monomer,97.029,%,,,,,v0.1.3,v0.1.3,SEC-HPLC monomer purity 97.029% from ichorbio CoA (280nm main peak); lot 20230406ZA01
 M-0219-03,S-0219,M-SEC-HPLC,pct_monomer,99.763,%,,,,,v0.1.3,v0.1.3,SEC-HPLC monomer purity 99.763% from ichorbio CoA (280nm main peak); lot 20240906AB02-A
 M-0170-03,S-0170,M-SEC-HPLC,pct_monomer,99.359,%,,,,,v0.1.3,v0.1.3,SEC-HPLC monomer purity 99.359% from ichorbio CoA (280nm main peak); lot 20240527ZA01
-M-0041-03,S-0041,M-SEC-HPLC,pct_monomer,99.06,%,,,,,v0.1.3,v0.1.3,SEC-HPLC monomer purity 99.06% from ichorbio CoA (280nm main peak); lot 20220909ZA01
 M-0011-03,S-0011,M-SEC-HPLC,pct_monomer,99.136,%,,,,,v0.1.3,v0.1.3,SEC-HPLC monomer purity 99.136% from ichorbio CoA (280nm main peak); lot 20240923Z003
 M-0206-03,S-0206,M-SEC-HPLC,pct_monomer,99.204,%,,,,,v0.1.3,v0.1.3,SEC-HPLC monomer purity 99.204% from ichorbio CoA (280nm main peak); lot 20250206AB02
 M-0187-03,S-0187,M-SEC-HPLC,pct_monomer,99.115,%,,,,,v0.1.3,v0.1.3,SEC-HPLC monomer purity 99.115% from ichorbio CoA (280nm main peak); lot M-202505140470
